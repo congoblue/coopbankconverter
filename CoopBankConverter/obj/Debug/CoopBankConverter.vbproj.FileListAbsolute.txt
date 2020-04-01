@@ -1,0 +1,15 @@
+c:\users\boardroom\documents\visual studio 2015\Projects\CoopBankConverter\CoopBankConverter\bin\Debug\CoopBankConverter.exe.config
+c:\users\boardroom\documents\visual studio 2015\Projects\CoopBankConverter\CoopBankConverter\bin\Debug\CoopBankConverter.exe
+c:\users\boardroom\documents\visual studio 2015\Projects\CoopBankConverter\CoopBankConverter\bin\Debug\CoopBankConverter.pdb
+c:\users\boardroom\documents\visual studio 2015\Projects\CoopBankConverter\CoopBankConverter\bin\Debug\CoopBankConverter.xml
+c:\users\boardroom\documents\visual studio 2015\Projects\CoopBankConverter\CoopBankConverter\obj\Debug\CoopBankConverter.Form1.resources
+c:\users\boardroom\documents\visual studio 2015\Projects\CoopBankConverter\CoopBankConverter\obj\Debug\CoopBankConverter.Resources.resources
+c:\users\boardroom\documents\visual studio 2015\Projects\CoopBankConverter\CoopBankConverter\obj\Debug\CoopBankConverter.vbproj.GenerateResource.Cache
+c:\users\boardroom\documents\visual studio 2015\Projects\CoopBankConverter\CoopBankConverter\obj\Debug\CoopBankConverter.exe
+c:\users\boardroom\documents\visual studio 2015\Projects\CoopBankConverter\CoopBankConverter\obj\Debug\CoopBankConverter.xml
+c:\users\boardroom\documents\visual studio 2015\Projects\CoopBankConverter\CoopBankConverter\obj\Debug\CoopBankConverter.pdb
+C:\Users\Boardroom\documents\visual studio 2015\Projects\CoopBankConverter\CoopBankConverter\bin\Debug\CoopBankConverter.exe.manifest
+C:\Users\Boardroom\documents\visual studio 2015\Projects\CoopBankConverter\CoopBankConverter\bin\Debug\CoopBankConverter.application
+C:\Users\Boardroom\documents\visual studio 2015\Projects\CoopBankConverter\CoopBankConverter\obj\Debug\CoopBankConverter.vbprojResolveAssemblyReference.cache
+C:\Users\Boardroom\documents\visual studio 2015\Projects\CoopBankConverter\CoopBankConverter\obj\Debug\CoopBankConverter.exe.manifest
+C:\Users\Boardroom\documents\visual studio 2015\Projects\CoopBankConverter\CoopBankConverter\obj\Debug\CoopBankConverter.application
