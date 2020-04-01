@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="CoopBankConverter.exe" version="1.0.0.1" publicKeyToken="842d9304828dd382" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="CoopBankConverter" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="CoopBankConverter.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CoopBankConverter.exe" size="18936">
+      <assemblyIdentity name="CoopBankConverter" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>85cvy3Y2HzKLKEyVqbQ4t3xvNpayvG/xYz1wJo/Adr4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="CoopBankConverter.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h0UeIdteCM29dGVw07LmHp593fPbh0IN11GyN3f2uRA=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=NEW-GIDV0J4F93K\Boardroom" issuerKeyHash="5efbaea1a0696f25735477fa150f29f9982e7064" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Z7+S6DxS3sljMOfMORQjcbyWWiqoZpscvW68pb9pCr0=</DigestValue></Reference></SignedInfo><SignatureValue>qibyxlf6o0P9MlbTGwqqRhl77jVtt2mICl1pI4jHseDP8vfgmrU3PaiAo3/idGVfsTJt2/bFC0mU1WDKboGwRaKtOVcw8LNH+yc63HfuTVvo+29EGcw4lOFf8q+VDXkMH5tyw71AYO2qRpxLHGsiaz4uymmn2QXiJyfuoIzx7Kc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>r8FMirStqpz/krqPtmIX1Yz6nZNEHixo3eK+Fuu4nunsZ4eKwExwbcc0GmAFS0I66y9LoUMCZWXLGuxPUstzYitlBkNwSa62/fq7LnVMVa8j8GgaidyqvII0qpkfak7iyHwwNpF2tUgF/XYA53LB0+0ZUJM15LsbOnuKs+LeYUE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="bd0a69bfa5bc6ebd1c9b66a82a5a96bc71231439cce73063c9de523ce892bf67" Description="" Url=""><as:assemblyIdentity name="CoopBankConverter.exe" version="1.0.0.1" publicKeyToken="842d9304828dd382" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=NEW-GIDV0J4F93K\Boardroom</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>irnc8LpdeQF1fgoxQmzIMCRRsNaxYVI8ItEMvESjGDY=</DigestValue></Reference></SignedInfo><SignatureValue>a5p60TZhecekSdYNhjYviACNE8NiFcQ6UA8V0YbyKcpIrWQOttj815izQqQQfMXGgK6ioxysLWUJzkNaZ0NeG+W912DV09AkroD/7kCG63Utiro1JZywGV9qgUjXbnWTzMJunBqEscOJjFTo3xNHU2OmCWv39L/FSW+HmR8D3pg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>r8FMirStqpz/krqPtmIX1Yz6nZNEHixo3eK+Fuu4nunsZ4eKwExwbcc0GmAFS0I66y9LoUMCZWXLGuxPUstzYitlBkNwSa62/fq7LnVMVa8j8GgaidyqvII0qpkfak7iyHwwNpF2tUgF/XYA53LB0+0ZUJM15LsbOnuKs+LeYUE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB/TCCAWagAwIBAgIQK3MrH2B3SYFAbFy11io/KDANBgkqhkiG9w0BAQsFADA9MTswOQYDVQQDHjIATgBFAFcALQBHAEkARABWADAASgA0AEYAOQAzAEsAXABCAG8AYQByAGQAcgBvAG8AbTAeFw0yMDA0MDEwOTQzMTJaFw0yMTA0MDExNTQzMTJaMD0xOzA5BgNVBAMeMgBOAEUAVwAtAEcASQBEAFYAMABKADQARgA5ADMASwBcAEIAbwBhAHIAZAByAG8AbwBtMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCvwUyKtK2qnP+Suo+2YhfVjPqdk0QeLGjd4r4W67ie6exnh4rATHBtxzQaYAVLQjrrL0uhQwJlZcsa7E9Sy3NiK2UGQ3BJrrb9+rsudUxVryPwaBqJ3Kq8gjSqmR9qTuLIfDA2kXa1SAX9dgDncsHT7RlQkzXkuxs6e4qz4t5hQQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAIOAjNtPqwyNAUM09W0F3pvXpvPJYunhf1q8Mljmxi+Lv3+u9J11GtNQzZWt5UvqzF4K6Vb076sdQNs48lry40wrTQP5ixe6A1UaidUaTyQf0gqYsMFHcZj92LLbE/TiPGoEr9RnAG51fG5nkKEysVVCdPf5enU5gXfP6kkBG8IZ</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

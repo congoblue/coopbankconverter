@@ -10,8 +10,8 @@
         file.Close()
 
         'update prev file
-        'My.Computer.FileSystem.WriteAllText(My.Computer.FileSystem.SpecialDirectories.Desktop & "\QbBankHistory.csv", TextBox1.Text, True)
-        My.Computer.FileSystem.WriteAllText("s:\company\figures\QbBankHistory.csv", TextBox1.Text, True)
+        My.Computer.FileSystem.WriteAllText(My.Computer.FileSystem.SpecialDirectories.Desktop & "\QbBankHistory.csv", TextBox1.Text, True)
+        'My.Computer.FileSystem.WriteAllText("s:\company\figures\QbBankHistory.csv", TextBox1.Text, True)
 
     End Sub
 
@@ -25,8 +25,8 @@
             Dim mamount As String
 
             'read previous transactions so we can avoid them
-            'Dim prev As String = My.Computer.FileSystem.ReadAllText(My.Computer.FileSystem.SpecialDirectories.Desktop & "\QbBankHistory.csv")
-            Dim prev As String = My.Computer.FileSystem.ReadAllText("s:\company\figures\QbBankHistory.csv")
+            Dim prev As String = My.Computer.FileSystem.ReadAllText(My.Computer.FileSystem.SpecialDirectories.Desktop & "\QbBankHistory.csv")
+            'Dim prev As String = My.Computer.FileSystem.ReadAllText("s:\company\figures\QbBankHistory.csv")
 
             ' Assign the files to an array.
             MyFiles = e.Data.GetData(DataFormats.FileDrop)
@@ -82,7 +82,8 @@
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        TextBox1.Text = My.Computer.FileSystem.ReadAllText("s:\company\figures\QbBankHistory.csv")
+        TextBox1.Text = My.Computer.FileSystem.ReadAllText(My.Computer.FileSystem.SpecialDirectories.Desktop & "\QbBankHistory.csv")
+        'TextBox1.Text = My.Computer.FileSystem.ReadAllText("s:\company\figures\QbBankHistory.csv")
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
